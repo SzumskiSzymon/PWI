@@ -8,8 +8,13 @@ header{
     background-color: blue;
 }
 .artykul{
-    background-color: blueviolet
+    background-color: blueviolet;
+    flex: 2;
 }
 aside{
-    background-color: yellow
+    background-color: yellow;
+    flex: 1: 
+}
+main{
+    display: flex;
 }
