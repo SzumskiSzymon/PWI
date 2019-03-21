@@ -12,26 +12,70 @@
 
 </head>
 <body>
-<header>
-<p>header</p>
-</header>
+    <div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          #1
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+     
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          #2
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+       
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+           bla bla
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        
+      </div>
+    </div>
+  </div>
+</div>
+    <header>
+        <p>header</p>
+    </header>
 <nav id="nav">
-<ul>
-    <li><a href="05.html">jeden</a></li>
-    <li><a href="06.html">dwa</a></li>
-    <li><a href="07.html">trzy</a></li>
-</ul>
+    <ul>
+        <li><a href="05.html">jeden</a></li>
+        <li><a href="06.html">dwa</a></li>
+        <li><a href="07.html">trzy</a></li>
+    </ul>
 </nav>
 <article class="artykul">
     <p>to jest article</p>
-    <section>
-<p>to jest section</p>
-    </section>
+        <section>
+            <p>to jest section</p>
+        </section>
 </article>
-<aside>to jest aside
-</aside>
+<aside>to jest aside</aside>
 <footer class="stopa">
-<p>to jest footer</p>
+    <p>to jest footer</p>
 </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
